@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/INTEGRATION_AND_MONITORING_STRATEGY",
+  "id": "strategy/INTEGRATION_AND_MONITORING_STRATEGY",
+  "title": "Integration and Monitoring Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/INTEGRATION_AND_MONITORING_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/INTEGRATION_AND_MONITORING_STRATEGY",
+  "permalink": "/strategy/INTEGRATION_AND_MONITORING_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Infrastructure Strategy",
+    "permalink": "/strategy/INFRASTRUCTURE_STRATEGY"
+  },
+  "next": {
+    "title": "Team and Process Strategy",
+    "permalink": "/strategy/TEAM_AND_PROCESS_STRATEGY"
+  }
+}

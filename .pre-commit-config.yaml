@@ -1,0 +1,90 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-yaml
+      - id: check-json
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: no-commit-to-branch
+        args: [--branch, main, --branch, production]
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.7
+    hooks:
+      - id: bandit
+        args: ["-c", "pyproject.toml"]
+        additional_dependencies: ["bandit[toml]"]
+
+  - repo: https://github.com/psf/black
+    rev: 24.2.0
+    hooks:
+      - id: black
+        language_version: python3.11
+
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.2.2
+    hooks:
+      - id: ruff
+        args: ["--fix"]
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        additional_dependencies: ["types-all"]
+
+  - repo: local
+    hooks:
+      - id: pytest-check
+        name: pytest
+        entry: pytest
+        language: system
+        pass_filenames: false
+        always_run: true
+        args: ["--cov=mindscape", "--cov-fail-under=90"]
+
+      - id: security-check
+        name: Security Check
+        entry: python scripts/security_check.py
+        language: python
+        pass_filenames: false
+        always_run: true
+
+      - id: performance-check
+        name: Performance Check
+        entry: python scripts/performance_check.py
+        language: python
+        pass_filenames: false
+        always_run: true
+
+      - id: strategy-docs-check
+        name: Strategy Docs Check
+        entry: python scripts/strategy_docs_check.py
+        language: python
+        files: ^docs/strategy/.*\.md$
+
+      - id: api-docs-check
+        name: API Documentation Check
+        entry: python scripts/api_docs_check.py
+        language: python
+        files: ^packages/backend/.*\.py$
+
+      - id: accessibility-check
+        name: Accessibility Check
+        entry: python scripts/accessibility_check.py
+        language: python
+        files: ^packages/frontend/.*\.(tsx|jsx)$
+
+      - id: component-docs-check
+        name: Component Documentation Check
+        entry: python scripts/component_docs_check.py
+        language: python
+        files: ^packages/frontend/.*\.(tsx|jsx)$
+
+      - id: test-coverage
+        name: Test Coverage Check
+        entry: python scripts/test_coverage_check.py
+        language: python
+        pass_filenames: false
+        always_run: true 

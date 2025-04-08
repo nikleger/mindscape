@@ -1,0 +1,27 @@
+{
+  "unversionedId": "strategy/SECURITY_STRATEGY",
+  "id": "strategy/SECURITY_STRATEGY",
+  "title": "Security Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/SECURITY_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/SECURITY_STRATEGY",
+  "permalink": "/strategy/SECURITY_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "SECURITY_STRATEGY",
+    "title": "Security Strategy",
+    "sidebar_label": "Security Strategy"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Testing Strategy",
+    "permalink": "/strategy/TESTING_STRATEGY"
+  },
+  "next": {
+    "title": "Data Strategy",
+    "permalink": "/strategy/DATA_STRATEGY"
+  }
+}

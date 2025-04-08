@@ -1,0 +1,22 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Mindscape Documentation",
+  "description": "Welcome to the Mindscape documentation! This documentation covers everything from architecture and development to operations and security.",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Welcome to Mindscape Documentation",
+    "permalink": "/intro"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "technical/database/DATABASE_SCHEMA",
+  "id": "technical/database/DATABASE_SCHEMA",
+  "title": "Database Schema",
+  "description": "Overview",
+  "source": "@site/docs/technical/database/DATABASE_SCHEMA.md",
+  "sourceDirName": "technical/database",
+  "slug": "/technical/database/DATABASE_SCHEMA",
+  "permalink": "/technical/database/DATABASE_SCHEMA",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "API Specification",
+    "permalink": "/technical/api/API_SPECIFICATION"
+  },
+  "next": {
+    "title": "Infrastructure Overview",
+    "permalink": "/technical/infrastructure/INFRASTRUCTURE_OVERVIEW"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "operations/monitoring-strategy",
+  "id": "operations/monitoring-strategy",
+  "title": "Integration and Monitoring Strategy",
+  "description": "Overview",
+  "source": "@site/docs/operations/monitoring-strategy.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/monitoring-strategy",
+  "permalink": "/operations/monitoring-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Infrastructure Strategy",
+    "permalink": "/operations/infrastructure-strategy"
+  },
+  "next": {
+    "title": "Documentation Strategy",
+    "permalink": "/process/documentation-strategy"
+  }
+}

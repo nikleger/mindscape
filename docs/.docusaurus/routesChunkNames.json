@@ -1,0 +1,140 @@
+{
+  "/__docusaurus/debug-0bf": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-72-a0a"
+    }
+  },
+  "/__docusaurus/debug/config-7e7": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-72-a0a"
+    }
+  },
+  "/__docusaurus/debug/content-726": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-72-a0a"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-102": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-72-a0a"
+    }
+  },
+  "/__docusaurus/debug/metadata-d76": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-72-a0a"
+    }
+  },
+  "/__docusaurus/debug/registry-51c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-72-a0a"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-72-a0a"
+    }
+  },
+  "/-989": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---a-7-f-eb0"
+    },
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/-b09": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---c-37-d02"
+  },
+  "/api/spec-fa6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---api-spec-778-018"
+  },
+  "/architecture/core-strategy-09f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---architecture-core-strategyc-3-a-154"
+  },
+  "/architecture/meta-strategy-203": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---architecture-meta-strategyed-6-5ce"
+  },
+  "/database/schema-2b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---database-schemaa-9-b-714"
+  },
+  "/development/development-strategy-c1b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---development-development-strategyc-85-6c9"
+  },
+  "/development/guide-b7d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---development-guide-066-4ed"
+  },
+  "/DOCUMENTATION_INDEX-f06": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-index-2-fa-ff1"
+  },
+  "/infrastructure/overview-532": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---infrastructure-overview-294-9ed"
+  },
+  "/intro-f92": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---intro-0-e-3-7b8"
+  },
+  "/operations/infrastructure-strategy-ebe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---operations-infrastructure-strategy-903-b8a"
+  },
+  "/operations/monitoring-strategy-3f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---operations-monitoring-strategyab-0-88e"
+  },
+  "/process/documentation-strategy-b17": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---process-documentation-strategyfb-3-d16"
+  },
+  "/process/infrastructure-implementation-9ac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---process-infrastructure-implementation-791-a40"
+  },
+  "/process/sprint-zero-planning-ab2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---process-sprint-zero-planning-1-b-6-ec3"
+  },
+  "/process/sprint-zero-review-e27": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---process-sprint-zero-review-750-65e"
+  },
+  "/process/team-strategy-1e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---process-team-strategyfb-7-c9d"
+  },
+  "/process/troubleshooting-audit-d1c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---process-troubleshooting-audit-223-4be"
+  },
+  "/quality/quality-strategy-e01": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---quality-quality-strategy-989-159"
+  },
+  "/security/security-strategy-168": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---security-security-strategy-603-454"
+  },
+  "/strategy/-295": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---strategy-4-de-1ea"
+  },
+  "/test-dashboard-633": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---test-dashboard-826-4cc"
+  }
+}

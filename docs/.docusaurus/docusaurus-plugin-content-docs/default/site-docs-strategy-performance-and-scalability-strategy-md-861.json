@@ -1,0 +1,14 @@
+{
+  "unversionedId": "strategy/PERFORMANCE_AND_SCALABILITY_STRATEGY",
+  "id": "strategy/PERFORMANCE_AND_SCALABILITY_STRATEGY",
+  "title": "Performance and Scalability Strategy",
+  "description": "System Goals and Metrics",
+  "source": "@site/docs/strategy/PERFORMANCE_AND_SCALABILITY_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/PERFORMANCE_AND_SCALABILITY_STRATEGY",
+  "permalink": "/strategy/PERFORMANCE_AND_SCALABILITY_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

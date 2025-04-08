@@ -1,0 +1,23 @@
+{
+  "unversionedId": "security/security-strategy",
+  "id": "security/security-strategy",
+  "title": "Security and Data Strategy",
+  "description": "Overview",
+  "source": "@site/docs/security/security-strategy.md",
+  "sourceDirName": "security",
+  "slug": "/security/security-strategy",
+  "permalink": "/security/security-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Quality Strategy",
+    "permalink": "/quality/quality-strategy"
+  },
+  "next": {
+    "title": "API Specification",
+    "permalink": "/api/spec"
+  }
+}

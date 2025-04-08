@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/TESTING_STRATEGY",
+  "id": "strategy/TESTING_STRATEGY",
+  "title": "Testing Strategy",
+  "description": "Core Principles",
+  "source": "@site/docs/strategy/TESTING_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/TESTING_STRATEGY",
+  "permalink": "/strategy/TESTING_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Architecture Decisions",
+    "permalink": "/strategy/ARCHITECTURE_DECISIONS"
+  },
+  "next": {
+    "title": "Security Strategy",
+    "permalink": "/strategy/SECURITY_STRATEGY"
+  }
+}

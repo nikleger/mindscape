@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/CORE_STRATEGY",
+  "id": "strategy/CORE_STRATEGY",
+  "title": "Core Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/CORE_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/CORE_STRATEGY",
+  "permalink": "/strategy/CORE_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Meta Strategy",
+    "permalink": "/strategy/META_STRATEGY"
+  },
+  "next": {
+    "title": "Development and Agile Strategy",
+    "permalink": "/strategy/DEVELOPMENT_AND_AGILE_STRATEGY"
+  }
+}

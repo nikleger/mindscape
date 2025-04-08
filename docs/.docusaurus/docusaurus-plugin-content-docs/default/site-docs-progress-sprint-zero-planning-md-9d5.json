@@ -1,0 +1,14 @@
+{
+  "unversionedId": "progress/SPRINT_ZERO_PLANNING",
+  "id": "progress/SPRINT_ZERO_PLANNING",
+  "title": "Sprint Zero Planning",
+  "description": "Overview",
+  "source": "@site/docs/progress/SPRINT_ZERO_PLANNING.md",
+  "sourceDirName": "progress",
+  "slug": "/progress/SPRINT_ZERO_PLANNING",
+  "permalink": "/progress/SPRINT_ZERO_PLANNING",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

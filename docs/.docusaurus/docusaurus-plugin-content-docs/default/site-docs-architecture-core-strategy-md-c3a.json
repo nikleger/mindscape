@@ -1,0 +1,23 @@
+{
+  "unversionedId": "architecture/core-strategy",
+  "id": "architecture/core-strategy",
+  "title": "Core Strategy",
+  "description": "Overview",
+  "source": "@site/docs/architecture/core-strategy.md",
+  "sourceDirName": "architecture",
+  "slug": "/architecture/core-strategy",
+  "permalink": "/architecture/core-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Test Dashboard",
+    "permalink": "/test-dashboard"
+  },
+  "next": {
+    "title": "Meta Strategy",
+    "permalink": "/architecture/meta-strategy"
+  }
+}

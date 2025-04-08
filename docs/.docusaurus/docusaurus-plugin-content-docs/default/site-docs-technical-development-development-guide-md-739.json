@@ -1,0 +1,23 @@
+{
+  "unversionedId": "technical/development/DEVELOPMENT_GUIDE",
+  "id": "technical/development/DEVELOPMENT_GUIDE",
+  "title": "Development Guide",
+  "description": "Overview",
+  "source": "@site/docs/technical/development/DEVELOPMENT_GUIDE.md",
+  "sourceDirName": "technical/development",
+  "slug": "/technical/development/DEVELOPMENT_GUIDE",
+  "permalink": "/technical/development/DEVELOPMENT_GUIDE",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Documentation Strategy",
+    "permalink": "/strategy/DOCUMENTATION_STRATEGY"
+  },
+  "next": {
+    "title": "API Specification",
+    "permalink": "/technical/api/API_SPECIFICATION"
+  }
+}

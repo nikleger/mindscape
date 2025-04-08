@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/ACCESSIBILITY_STRATEGY",
+  "id": "strategy/ACCESSIBILITY_STRATEGY",
+  "title": "Accessibility Strategy",
+  "description": "WCAG Compliance",
+  "source": "@site/docs/strategy/ACCESSIBILITY_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/ACCESSIBILITY_STRATEGY",
+  "permalink": "/strategy/ACCESSIBILITY_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Monitoring Strategy",
+    "permalink": "/strategy/MONITORING_STRATEGY"
+  },
+  "next": {
+    "title": "Documentation Strategy",
+    "permalink": "/strategy/DOCUMENTATION_STRATEGY"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unversionedId": "DOCUMENTATION_INDEX",
+  "id": "DOCUMENTATION_INDEX",
+  "title": "Documentation Index",
+  "description": "Directory Structure",
+  "source": "@site/docs/DOCUMENTATION_INDEX.md",
+  "sourceDirName": ".",
+  "slug": "/DOCUMENTATION_INDEX",
+  "permalink": "/DOCUMENTATION_INDEX",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

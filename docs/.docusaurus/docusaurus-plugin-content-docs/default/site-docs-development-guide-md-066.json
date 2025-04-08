@@ -1,0 +1,23 @@
+{
+  "unversionedId": "development/guide",
+  "id": "development/guide",
+  "title": "Development Guide",
+  "description": "Overview",
+  "source": "@site/docs/development/guide.md",
+  "sourceDirName": "development",
+  "slug": "/development/guide",
+  "permalink": "/development/guide",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Development and Agile Strategy",
+    "permalink": "/development/development-strategy"
+  },
+  "next": {
+    "title": "Infrastructure Strategy",
+    "permalink": "/operations/infrastructure-strategy"
+  }
+}

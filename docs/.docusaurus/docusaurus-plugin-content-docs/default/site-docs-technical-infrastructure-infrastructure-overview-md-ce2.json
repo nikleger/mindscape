@@ -1,0 +1,23 @@
+{
+  "unversionedId": "technical/infrastructure/INFRASTRUCTURE_OVERVIEW",
+  "id": "technical/infrastructure/INFRASTRUCTURE_OVERVIEW",
+  "title": "Infrastructure Overview",
+  "description": "Overview",
+  "source": "@site/docs/technical/infrastructure/INFRASTRUCTURE_OVERVIEW.md",
+  "sourceDirName": "technical/infrastructure",
+  "slug": "/technical/infrastructure/INFRASTRUCTURE_OVERVIEW",
+  "permalink": "/technical/infrastructure/INFRASTRUCTURE_OVERVIEW",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Database Schema",
+    "permalink": "/technical/database/DATABASE_SCHEMA"
+  },
+  "next": {
+    "title": "Sprint Zero Planning",
+    "permalink": "/progress/SPRINT_ZERO_PLANNING"
+  }
+}

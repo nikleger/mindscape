@@ -1,0 +1,23 @@
+{
+  "unversionedId": "process/documentation-strategy",
+  "id": "process/documentation-strategy",
+  "title": "Documentation Strategy",
+  "description": "Overview",
+  "source": "@site/docs/process/documentation-strategy.md",
+  "sourceDirName": "process",
+  "slug": "/process/documentation-strategy",
+  "permalink": "/process/documentation-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Integration and Monitoring Strategy",
+    "permalink": "/operations/monitoring-strategy"
+  },
+  "next": {
+    "title": "Team and Process Strategy",
+    "permalink": "/process/team-strategy"
+  }
+}

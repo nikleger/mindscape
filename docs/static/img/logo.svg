@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain outline -->
+  <path d="M16 4C10.477 4 6 8.477 6 14C6 17.991 8.156 21.464 11.414 23.414C12.246 24.246 13.097 25 14 25.694V28H18V25.694C18.903 25 19.754 24.246 20.586 23.414C23.844 21.464 26 17.991 26 14C26 8.477 21.523 4 16 4Z" 
+        stroke="#3578e5" 
+        stroke-width="2" 
+        fill="none"/>
+  
+  <!-- Brain details -->
+  <path d="M16 7C13 7 11 9 11 12C11 15 13 17 16 17C19 17 21 15 21 12C21 9 19 7 16 7Z" 
+        stroke="#3578e5" 
+        stroke-width="2" 
+        fill="none"/>
+  
+  <!-- Connecting lines -->
+  <path d="M13 17C12 19 12 21 13 23M19 17C20 19 20 21 19 23" 
+        stroke="#3578e5" 
+        stroke-width="2" 
+        fill="none"/>
+</svg> 

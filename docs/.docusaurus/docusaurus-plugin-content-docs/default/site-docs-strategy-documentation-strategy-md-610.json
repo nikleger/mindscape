@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/DOCUMENTATION_STRATEGY",
+  "id": "strategy/DOCUMENTATION_STRATEGY",
+  "title": "Documentation Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/DOCUMENTATION_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/DOCUMENTATION_STRATEGY",
+  "permalink": "/strategy/DOCUMENTATION_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Team and Process Strategy",
+    "permalink": "/strategy/TEAM_AND_PROCESS_STRATEGY"
+  },
+  "next": {
+    "title": "Development Guide",
+    "permalink": "/technical/development/DEVELOPMENT_GUIDE"
+  }
+}

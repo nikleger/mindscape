@@ -1,0 +1,94 @@
+name: Tests and Dashboard Deployment
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+
+jobs:
+  test:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.21'
+        
+    - name: Install Chocolatey
+      run: |
+        Set-ExecutionPolicy Bypass -Scope Process -Force
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+        iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+        
+    - name: Install dependencies
+      run: |
+        npm install
+        pip install pytest pytest-cov
+        go get github.com/gruntwork-io/terratest
+        choco install k6 -y
+        
+    - name: Run tests
+      run: .\scripts\run-tests.ps1
+      
+    - name: Update test dashboard
+      run: .\scripts\update-test-dashboard.ps1
+      
+    - name: Deploy test dashboard
+      if: github.ref == 'refs/heads/main'
+      run: |
+        cd docs
+        npm run deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Upload test artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: |
+          tests/unit/coverage
+          tests/e2e/cypress/screenshots
+          tests/performance/results
+          tests/accessibility/reports
+
+  docs:
+    needs: test
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Test documentation
+      run: |
+        cd docs
+        npm install
+        npx docusaurus check-links
+        npx docusaurus check-content
+        npm run build
+        
+    - name: Deploy documentation
+      if: github.ref == 'refs/heads/main'
+      run: |
+        cd docs
+        npm run deploy 

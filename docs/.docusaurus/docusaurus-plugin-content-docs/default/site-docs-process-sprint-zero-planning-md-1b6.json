@@ -1,0 +1,14 @@
+{
+  "unversionedId": "process/sprint-zero-planning",
+  "id": "process/sprint-zero-planning",
+  "title": "Sprint Zero Planning",
+  "description": "Overview",
+  "source": "@site/docs/process/sprint-zero-planning.md",
+  "sourceDirName": "process",
+  "slug": "/process/sprint-zero-planning",
+  "permalink": "/process/sprint-zero-planning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "infrastructure/overview",
+  "id": "infrastructure/overview",
+  "title": "Infrastructure Overview",
+  "description": "Overview",
+  "source": "@site/docs/infrastructure/overview.md",
+  "sourceDirName": "infrastructure",
+  "slug": "/infrastructure/overview",
+  "permalink": "/infrastructure/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Database Schema",
+    "permalink": "/database/schema"
+  }
+}

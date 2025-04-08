@@ -1,0 +1,14 @@
+{
+  "unversionedId": "process/infrastructure-implementation",
+  "id": "process/infrastructure-implementation",
+  "title": "Infrastructure Implementation",
+  "description": "Overview",
+  "source": "@site/docs/process/infrastructure-implementation.md",
+  "sourceDirName": "process",
+  "slug": "/process/infrastructure-implementation",
+  "permalink": "/process/infrastructure-implementation",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

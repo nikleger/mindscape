@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/MONITORING_STRATEGY",
+  "id": "strategy/MONITORING_STRATEGY",
+  "title": "Monitoring Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/MONITORING_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/MONITORING_STRATEGY",
+  "permalink": "/strategy/MONITORING_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Integration Strategy",
+    "permalink": "/strategy/INTEGRATION_STRATEGY"
+  },
+  "next": {
+    "title": "Accessibility Strategy",
+    "permalink": "/strategy/ACCESSIBILITY_STRATEGY"
+  }
+}

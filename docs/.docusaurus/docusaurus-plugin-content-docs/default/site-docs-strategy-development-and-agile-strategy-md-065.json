@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/DEVELOPMENT_AND_AGILE_STRATEGY",
+  "id": "strategy/DEVELOPMENT_AND_AGILE_STRATEGY",
+  "title": "Development and Agile Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/DEVELOPMENT_AND_AGILE_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/DEVELOPMENT_AND_AGILE_STRATEGY",
+  "permalink": "/strategy/DEVELOPMENT_AND_AGILE_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Core Strategy",
+    "permalink": "/strategy/CORE_STRATEGY"
+  },
+  "next": {
+    "title": "Quality Strategy",
+    "permalink": "/strategy/QUALITY_STRATEGY"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "architecture/meta-strategy",
+  "id": "architecture/meta-strategy",
+  "title": "Meta Strategy",
+  "description": "Overview",
+  "source": "@site/docs/architecture/meta-strategy.md",
+  "sourceDirName": "architecture",
+  "slug": "/architecture/meta-strategy",
+  "permalink": "/architecture/meta-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Core Strategy",
+    "permalink": "/architecture/core-strategy"
+  },
+  "next": {
+    "title": "Development and Agile Strategy",
+    "permalink": "/development/development-strategy"
+  }
+}

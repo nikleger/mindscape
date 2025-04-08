@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/PERFORMANCE_STRATEGY",
+  "id": "strategy/PERFORMANCE_STRATEGY",
+  "title": "Performance Strategy",
+  "description": "Performance Goals",
+  "source": "@site/docs/strategy/PERFORMANCE_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/PERFORMANCE_STRATEGY",
+  "permalink": "/strategy/PERFORMANCE_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Data Strategy",
+    "permalink": "/strategy/DATA_STRATEGY"
+  },
+  "next": {
+    "title": "Scalability Strategy",
+    "permalink": "/strategy/SCALABILITY_STRATEGY"
+  }
+}

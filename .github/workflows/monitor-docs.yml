@@ -1,0 +1,94 @@
+name: Documentation Monitoring
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Run every 15 minutes
+  workflow_dispatch:  # Allow manual triggering
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - '.github/workflows/monitor-docs.yml'
+
+jobs:
+  monitor:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: 'docs/package-lock.json'
+        
+    - name: Install dependencies
+      run: |
+        cd docs
+        npm ci
+        
+    - name: Start health check server
+      run: |
+        cd docs
+        npm run health &
+        
+    - name: Run monitoring script
+      run: |
+        cd docs
+        npm run monitor
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Upload monitoring logs
+      uses: actions/upload-artifact@v3
+      with:
+        name: monitoring-logs
+        path: docs/monitoring.log
+        if-no-files-found: error
+        
+    - name: Create issue on failure
+      if: failure()
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const { data: issues } = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: ['documentation', 'monitoring']
+          });
+          
+          // Check if similar issue already exists
+          const existingIssue = issues.find(issue => 
+            issue.title.includes('Documentation Monitoring Alert')
+          );
+          
+          if (!existingIssue) {
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Documentation Monitoring Alert',
+              body: 'The documentation monitoring check has failed. Please check the monitoring logs for details.',
+              labels: ['documentation', 'monitoring', 'bug']
+            });
+          }
+          
+    - name: Auto-fix documentation issues
+      if: failure()
+      run: |
+        cd docs
+        # Fix broken links
+        npm run write-heading-ids
+        # Rebuild documentation
+        npm run build
+        # Restart health check server
+        npm run health &
+        
+    - name: Commit fixes
+      if: failure()
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: 'docs: auto-fix documentation issues'
+        branch: main 

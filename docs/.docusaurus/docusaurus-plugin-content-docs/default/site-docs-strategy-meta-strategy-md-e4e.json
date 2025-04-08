@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/META_STRATEGY",
+  "id": "strategy/META_STRATEGY",
+  "title": "Meta Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/META_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/META_STRATEGY",
+  "permalink": "/strategy/META_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome to Mindscape Documentation",
+    "permalink": "/intro"
+  },
+  "next": {
+    "title": "Core Strategy",
+    "permalink": "/strategy/CORE_STRATEGY"
+  }
+}

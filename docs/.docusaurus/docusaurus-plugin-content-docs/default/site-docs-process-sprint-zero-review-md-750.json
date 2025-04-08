@@ -1,0 +1,14 @@
+{
+  "unversionedId": "process/sprint-zero-review",
+  "id": "process/sprint-zero-review",
+  "title": "Sprint Zero Review",
+  "description": "Overview",
+  "source": "@site/docs/process/sprint-zero-review.md",
+  "sourceDirName": "process",
+  "slug": "/process/sprint-zero-review",
+  "permalink": "/process/sprint-zero-review",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

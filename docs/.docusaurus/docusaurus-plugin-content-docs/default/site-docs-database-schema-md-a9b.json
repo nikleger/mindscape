@@ -1,0 +1,23 @@
+{
+  "unversionedId": "database/schema",
+  "id": "database/schema",
+  "title": "Database Schema",
+  "description": "Overview",
+  "source": "@site/docs/database/schema.md",
+  "sourceDirName": "database",
+  "slug": "/database/schema",
+  "permalink": "/database/schema",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "API Specification",
+    "permalink": "/api/spec"
+  },
+  "next": {
+    "title": "Infrastructure Overview",
+    "permalink": "/infrastructure/overview"
+  }
+}

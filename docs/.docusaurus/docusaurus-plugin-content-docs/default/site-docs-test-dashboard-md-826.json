@@ -1,0 +1,26 @@
+{
+  "unversionedId": "test-dashboard",
+  "id": "test-dashboard",
+  "title": "Test Dashboard",
+  "description": "Welcome to the Mindscape Test Dashboard. This page provides real-time insights into our test coverage and results across all testing categories.",
+  "source": "@site/docs/test-dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/test-dashboard",
+  "permalink": "/test-dashboard",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome to Mindscape Documentation",
+    "permalink": "/intro"
+  },
+  "next": {
+    "title": "Core Strategy",
+    "permalink": "/architecture/core-strategy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/CONTRIBUTION_STRATEGY",
+  "id": "strategy/CONTRIBUTION_STRATEGY",
+  "title": "Contribution Strategy",
+  "description": "Development Process",
+  "source": "@site/docs/strategy/CONTRIBUTION_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/CONTRIBUTION_STRATEGY",
+  "permalink": "/strategy/CONTRIBUTION_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Agile Strategy",
+    "permalink": "/strategy/AGILE_STRATEGY"
+  },
+  "next": {
+    "title": "Deployment Strategy",
+    "permalink": "/strategy/DEPLOYMENT_STRATEGY"
+  }
+}

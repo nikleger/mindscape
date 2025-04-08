@@ -1,0 +1,14 @@
+{
+  "unversionedId": "strategy/DOCUMENTATION_STRUCTURE_STRATEGY",
+  "id": "strategy/DOCUMENTATION_STRUCTURE_STRATEGY",
+  "title": "Documentation Structure",
+  "description": "Directory Structure",
+  "source": "@site/docs/strategy/DOCUMENTATION_STRUCTURE_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/DOCUMENTATION_STRUCTURE_STRATEGY",
+  "permalink": "/strategy/DOCUMENTATION_STRUCTURE_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

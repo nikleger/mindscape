@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/INFRASTRUCTURE_STRATEGY",
+  "id": "strategy/INFRASTRUCTURE_STRATEGY",
+  "title": "Infrastructure Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/INFRASTRUCTURE_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/INFRASTRUCTURE_STRATEGY",
+  "permalink": "/strategy/INFRASTRUCTURE_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Security and Data Strategy",
+    "permalink": "/strategy/SECURITY_AND_DATA_STRATEGY"
+  },
+  "next": {
+    "title": "Integration and Monitoring Strategy",
+    "permalink": "/strategy/INTEGRATION_AND_MONITORING_STRATEGY"
+  }
+}

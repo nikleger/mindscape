@@ -1,0 +1,23 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Welcome to Mindscape Documentation",
+  "description": "Welcome to the official documentation for Mindscape, the enterprise mind mapping platform. This documentation is designed to help you understand, use, and contribute to the Mindscape project.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Mindscape Documentation",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Test Dashboard",
+    "permalink": "/test-dashboard"
+  }
+}

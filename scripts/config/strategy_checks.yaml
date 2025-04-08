@@ -1,0 +1,136 @@
+security:
+  patterns:
+    secrets:
+      - pattern: '(?i)(\b(api[_-]?key|secret|password|token)[_-]?[a-z0-9_-]*\s*[=:]\s*[\'"]\w+[\'"])'
+        description: "Potential hardcoded secret"
+      - pattern: '(?i)(aws[_-]?access[_-]?key[_-]?id|aws[_-]?secret[_-]?access[_-]?key)'
+        description: "AWS credentials"
+      - pattern: '(?i)(bearer\s+[a-z0-9\-\._]+)'
+        description: "Bearer token"
+    
+    headers:
+      - name: "X-Frame-Options"
+        required: true
+      - name: "X-Content-Type-Options"
+        required: true
+      - name: "X-XSS-Protection"
+        required: true
+      - name: "Strict-Transport-Security"
+        required: true
+      - name: "Content-Security-Policy"
+        required: true
+    
+    auth_config:
+      - name: "JWT_ALGORITHM"
+        required: true
+      - name: "ACCESS_TOKEN_EXPIRE_MINUTES"
+        required: true
+      - name: "REFRESH_TOKEN_EXPIRE_DAYS"
+        required: true
+
+performance:
+  database:
+    patterns:
+      - pattern: 'for.*in.*query\('
+        description: "Potential N+1 query"
+      - pattern: 'filter\(.*\).*first\(\)'
+        description: "Missing index potential"
+  
+  frontend:
+    next_config:
+      required_optimizations:
+        - "optimizeCss"
+        - "optimizeImages"
+        - "optimizeFonts"
+    
+    react:
+      patterns:
+        - pattern: 'export default function.*\('
+          missing: 'memo('
+          description: "Consider using React.memo"
+        - pattern: '\.map\('
+          missing: 'key='
+          description: "Missing key prop"
+  
+  caching:
+    required_configs:
+      - "CACHE_TTL"
+      - "CACHE_PREFIX"
+      - "CACHE_URL"
+    
+    patterns:
+      - pattern: '@router\.get'
+        missing: '@cache'
+        description: "Consider adding cache decorator"
+
+documentation:
+  required_sections:
+    SECURITY_STRATEGY.md:
+      - "Security Principles"
+      - "Authentication & Authorization"
+      - "Data Protection"
+      - "Network Security"
+      - "Security Monitoring"
+      - "Incident Response"
+      - "Compliance"
+      - "Security Training"
+    
+    PERFORMANCE_STRATEGY.md:
+      - "Performance Goals"
+      - "Frontend Performance"
+      - "Backend Performance"
+      - "Load Testing"
+      - "Monitoring"
+      - "Optimization Techniques"
+      - "Performance Testing"
+      - "CI/CD Integration"
+    
+    DEVELOPMENT_WORKFLOW.md:
+      - "Git Workflow"
+      - "Code Review Process"
+      - "Development Environment"
+      - "Quality Gates"
+      - "Documentation Requirements"
+      - "Development Process"
+      - "Release Process"
+      - "Monitoring & Feedback"
+    
+    ARCHITECTURE_DECISIONS.md:
+      - "Technology Stack"
+      - "Project Structure"
+      - "Authentication Strategy"
+      - "Database Design"
+      - "API Design"
+      - "State Management"
+      - "Testing Strategy"
+      - "Performance Strategy"
+  
+  code_blocks:
+    required_language: true
+    validate:
+      yaml: true
+      json: true
+      python: true
+  
+  links:
+    validate_internal: true
+    validate_file_links: true
+  
+  mermaid:
+    validate_syntax: true
+    allowed_diagrams:
+      - "graph"
+      - "sequenceDiagram"
+      - "classDiagram"
+      - "stateDiagram"
+      - "gantt"
+      - "pie"
+
+terminology:
+  extract_patterns:
+    - pattern: '(?:\*\*|#{1,6}\s+)([A-Z][A-Za-z\s]+)(?:\*\*|$)'
+      description: "Term definition"
+  
+  consistency:
+    check_across_files: true
+    case_sensitive: true 

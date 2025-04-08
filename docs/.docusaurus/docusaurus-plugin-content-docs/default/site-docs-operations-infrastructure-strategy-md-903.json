@@ -1,0 +1,23 @@
+{
+  "unversionedId": "operations/infrastructure-strategy",
+  "id": "operations/infrastructure-strategy",
+  "title": "Infrastructure Strategy",
+  "description": "Overview",
+  "source": "@site/docs/operations/infrastructure-strategy.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/infrastructure-strategy",
+  "permalink": "/operations/infrastructure-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Development Guide",
+    "permalink": "/development/guide"
+  },
+  "next": {
+    "title": "Integration and Monitoring Strategy",
+    "permalink": "/operations/monitoring-strategy"
+  }
+}

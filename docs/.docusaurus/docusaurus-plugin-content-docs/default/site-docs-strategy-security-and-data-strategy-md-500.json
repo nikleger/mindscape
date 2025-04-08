@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/SECURITY_AND_DATA_STRATEGY",
+  "id": "strategy/SECURITY_AND_DATA_STRATEGY",
+  "title": "Security and Data Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/SECURITY_AND_DATA_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/SECURITY_AND_DATA_STRATEGY",
+  "permalink": "/strategy/SECURITY_AND_DATA_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Quality Strategy",
+    "permalink": "/strategy/QUALITY_STRATEGY"
+  },
+  "next": {
+    "title": "Infrastructure Strategy",
+    "permalink": "/strategy/INFRASTRUCTURE_STRATEGY"
+  }
+}

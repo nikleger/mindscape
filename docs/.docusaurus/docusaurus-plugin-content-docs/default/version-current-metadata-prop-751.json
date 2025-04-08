@@ -1,0 +1,301 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "docs": [
+      {
+        "type": "link",
+        "label": "Mindscape Documentation",
+        "href": "/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "Welcome to Mindscape Documentation",
+        "href": "/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "Test Dashboard",
+        "href": "/test-dashboard",
+        "docId": "test-dashboard"
+      },
+      {
+        "type": "category",
+        "label": "Architecture",
+        "items": [
+          {
+            "type": "link",
+            "label": "Core Strategy",
+            "href": "/architecture/core-strategy",
+            "docId": "architecture/core-strategy"
+          },
+          {
+            "type": "link",
+            "label": "Meta Strategy",
+            "href": "/architecture/meta-strategy",
+            "docId": "architecture/meta-strategy"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Development",
+        "items": [
+          {
+            "type": "link",
+            "label": "Development and Agile Strategy",
+            "href": "/development/development-strategy",
+            "docId": "development/development-strategy"
+          },
+          {
+            "type": "link",
+            "label": "Development Guide",
+            "href": "/development/guide",
+            "docId": "development/guide"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Operations",
+        "items": [
+          {
+            "type": "link",
+            "label": "Infrastructure Strategy",
+            "href": "/operations/infrastructure-strategy",
+            "docId": "operations/infrastructure-strategy"
+          },
+          {
+            "type": "link",
+            "label": "Integration and Monitoring Strategy",
+            "href": "/operations/monitoring-strategy",
+            "docId": "operations/monitoring-strategy"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Process",
+        "items": [
+          {
+            "type": "link",
+            "label": "Documentation Strategy",
+            "href": "/process/documentation-strategy",
+            "docId": "process/documentation-strategy"
+          },
+          {
+            "type": "link",
+            "label": "Team and Process Strategy",
+            "href": "/process/team-strategy",
+            "docId": "process/team-strategy"
+          },
+          {
+            "type": "link",
+            "label": "Troubleshooting Audit Trail",
+            "href": "/process/troubleshooting-audit",
+            "docId": "process/troubleshooting-audit"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Quality",
+        "items": [
+          {
+            "type": "link",
+            "label": "Quality Strategy",
+            "href": "/quality/quality-strategy",
+            "docId": "quality/quality-strategy"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Security",
+        "items": [
+          {
+            "type": "link",
+            "label": "Security and Data Strategy",
+            "href": "/security/security-strategy",
+            "docId": "security/security-strategy"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Technical Documentation",
+        "items": [
+          {
+            "type": "link",
+            "label": "API Specification",
+            "href": "/api/spec",
+            "docId": "api/spec"
+          },
+          {
+            "type": "link",
+            "label": "Database Schema",
+            "href": "/database/schema",
+            "docId": "database/schema"
+          },
+          {
+            "type": "link",
+            "label": "Infrastructure Overview",
+            "href": "/infrastructure/overview",
+            "docId": "infrastructure/overview"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "api/spec": {
+      "id": "api/spec",
+      "title": "API Specification",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "architecture/core-strategy": {
+      "id": "architecture/core-strategy",
+      "title": "Core Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "architecture/meta-strategy": {
+      "id": "architecture/meta-strategy",
+      "title": "Meta Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "database/schema": {
+      "id": "database/schema",
+      "title": "Database Schema",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "development/development-strategy": {
+      "id": "development/development-strategy",
+      "title": "Development and Agile Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "development/guide": {
+      "id": "development/guide",
+      "title": "Development Guide",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "DOCUMENTATION_INDEX": {
+      "id": "DOCUMENTATION_INDEX",
+      "title": "Documentation Index",
+      "description": "Directory Structure"
+    },
+    "index": {
+      "id": "index",
+      "title": "Mindscape Documentation",
+      "description": "Welcome to the Mindscape documentation! This documentation covers everything from architecture and development to operations and security.",
+      "sidebar": "docs"
+    },
+    "infrastructure/overview": {
+      "id": "infrastructure/overview",
+      "title": "Infrastructure Overview",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Welcome to Mindscape Documentation",
+      "description": "Welcome to the official documentation for Mindscape, the enterprise mind mapping platform. This documentation is designed to help you understand, use, and contribute to the Mindscape project.",
+      "sidebar": "docs"
+    },
+    "operations/infrastructure-strategy": {
+      "id": "operations/infrastructure-strategy",
+      "title": "Infrastructure Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "operations/monitoring-strategy": {
+      "id": "operations/monitoring-strategy",
+      "title": "Integration and Monitoring Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "process/documentation-strategy": {
+      "id": "process/documentation-strategy",
+      "title": "Documentation Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "process/infrastructure-implementation": {
+      "id": "process/infrastructure-implementation",
+      "title": "Infrastructure Implementation",
+      "description": "Overview"
+    },
+    "process/sprint-zero-planning": {
+      "id": "process/sprint-zero-planning",
+      "title": "Sprint Zero Planning",
+      "description": "Overview"
+    },
+    "process/sprint-zero-review": {
+      "id": "process/sprint-zero-review",
+      "title": "Sprint Zero Review",
+      "description": "Overview"
+    },
+    "process/team-strategy": {
+      "id": "process/team-strategy",
+      "title": "Team and Process Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "process/troubleshooting-audit": {
+      "id": "process/troubleshooting-audit",
+      "title": "Troubleshooting Audit Trail",
+      "description": "This document serves as a comprehensive record of all troubleshooting activities, learnings, and fixes implemented during the project's development.",
+      "sidebar": "docs"
+    },
+    "quality/quality-strategy": {
+      "id": "quality/quality-strategy",
+      "title": "Quality Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "security/security-strategy": {
+      "id": "security/security-strategy",
+      "title": "Security and Data Strategy",
+      "description": "Overview",
+      "sidebar": "docs"
+    },
+    "strategy/README": {
+      "id": "strategy/README",
+      "title": "Mindscape Strategy Documentation",
+      "description": "This directory contains the strategic documentation for the Mindscape project. For a complete overview of our strategy documentation, please refer to the Meta Strategy document."
+    },
+    "test-dashboard": {
+      "id": "test-dashboard",
+      "title": "Test Dashboard",
+      "description": "Welcome to the Mindscape Test Dashboard. This page provides real-time insights into our test coverage and results across all testing categories.",
+      "sidebar": "docs"
+    }
+  }
+}

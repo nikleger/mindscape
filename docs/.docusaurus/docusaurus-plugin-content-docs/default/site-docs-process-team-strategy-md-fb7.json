@@ -1,0 +1,23 @@
+{
+  "unversionedId": "process/team-strategy",
+  "id": "process/team-strategy",
+  "title": "Team and Process Strategy",
+  "description": "Overview",
+  "source": "@site/docs/process/team-strategy.md",
+  "sourceDirName": "process",
+  "slug": "/process/team-strategy",
+  "permalink": "/process/team-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Documentation Strategy",
+    "permalink": "/process/documentation-strategy"
+  },
+  "next": {
+    "title": "Troubleshooting Audit Trail",
+    "permalink": "/process/troubleshooting-audit"
+  }
+}

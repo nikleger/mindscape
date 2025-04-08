@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/SCALABILITY_STRATEGY",
+  "id": "strategy/SCALABILITY_STRATEGY",
+  "title": "Scalability Strategy",
+  "description": "Infrastructure Scaling",
+  "source": "@site/docs/strategy/SCALABILITY_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/SCALABILITY_STRATEGY",
+  "permalink": "/strategy/SCALABILITY_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Performance Strategy",
+    "permalink": "/strategy/PERFORMANCE_STRATEGY"
+  },
+  "next": {
+    "title": "Integration Strategy",
+    "permalink": "/strategy/INTEGRATION_STRATEGY"
+  }
+}

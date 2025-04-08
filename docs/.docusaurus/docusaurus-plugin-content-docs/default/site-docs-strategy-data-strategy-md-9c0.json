@@ -1,0 +1,27 @@
+{
+  "unversionedId": "strategy/DATA_STRATEGY",
+  "id": "strategy/DATA_STRATEGY",
+  "title": "Data Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/DATA_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/DATA_STRATEGY",
+  "permalink": "/strategy/DATA_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "DATA_STRATEGY",
+    "title": "Data Strategy",
+    "sidebar_label": "Data Strategy"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Security Strategy",
+    "permalink": "/strategy/SECURITY_STRATEGY"
+  },
+  "next": {
+    "title": "Performance Strategy",
+    "permalink": "/strategy/PERFORMANCE_STRATEGY"
+  }
+}

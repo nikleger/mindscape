@@ -1,0 +1,26 @@
+{
+  "unversionedId": "process/troubleshooting-audit",
+  "id": "process/troubleshooting-audit",
+  "title": "Troubleshooting Audit Trail",
+  "description": "This document serves as a comprehensive record of all troubleshooting activities, learnings, and fixes implemented during the project's development.",
+  "source": "@site/docs/process/troubleshooting-audit.md",
+  "sourceDirName": "process",
+  "slug": "/process/troubleshooting-audit",
+  "permalink": "/process/troubleshooting-audit",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Team and Process Strategy",
+    "permalink": "/process/team-strategy"
+  },
+  "next": {
+    "title": "Quality Strategy",
+    "permalink": "/quality/quality-strategy"
+  }
+}

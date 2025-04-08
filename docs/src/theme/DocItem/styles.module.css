@@ -1,0 +1,43 @@
+.docPage {
+  display: flex;
+  width: 100%;
+}
+
+.docItemContainer {
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.docItemWrapper {
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+@media (min-width: 997px) {
+  .docItemContainer {
+    max-width: 75%;
+  }
+}
+
+.docItemContent {
+  margin-bottom: 3rem;
+}
+
+.docItemFooter {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.docItemFooterEdit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.docTitle {
+  margin-bottom: 1rem;
+} 

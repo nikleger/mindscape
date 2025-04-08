@@ -1,0 +1,182 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install backend dependencies
+        run: |
+          cd packages/backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Install frontend dependencies
+        run: |
+          cd packages/frontend
+          npm ci
+          
+      - name: Run backend linting
+        run: |
+          cd packages/backend
+          flake8 .
+          black . --check
+          isort . --check-only
+          
+      - name: Run frontend linting
+        run: |
+          cd packages/frontend
+          npm run lint
+          
+  test:
+    needs: lint
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: mindscape_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+          
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install backend dependencies
+        run: |
+          cd packages/backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Install frontend dependencies
+        run: |
+          cd packages/frontend
+          npm ci
+          
+      - name: Run backend tests
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/mindscape_test
+        run: |
+          cd packages/backend
+          pytest --cov=app --cov-report=xml
+          
+      - name: Run frontend tests
+        run: |
+          cd packages/frontend
+          npm test
+          
+      - name: Upload coverage reports
+        uses: codecov/codecov-action@v3
+        with:
+          files: packages/backend/coverage.xml
+          
+  security:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install backend dependencies
+        run: |
+          cd packages/backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Install frontend dependencies
+        run: |
+          cd packages/frontend
+          npm ci
+          
+      - name: Run security checks
+        run: |
+          # Backend security checks
+          cd packages/backend
+          pip install safety
+          safety check
+          
+          # Frontend security checks
+          cd ../frontend
+          npm audit
+          
+  deploy:
+    needs: security
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install backend dependencies
+        run: |
+          cd packages/backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Install frontend dependencies
+        run: |
+          cd packages/frontend
+          npm ci
+          
+      - name: Build frontend
+        run: |
+          cd packages/frontend
+          npm run build
+          
+      - name: Deploy to production
+        run: |
+          # Add your deployment steps here
+          echo "Deploying to production..." 

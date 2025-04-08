@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/AGILE_STRATEGY",
+  "id": "strategy/AGILE_STRATEGY",
+  "title": "Agile Strategy",
+  "description": "Agile Framework",
+  "source": "@site/docs/strategy/AGILE_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/AGILE_STRATEGY",
+  "permalink": "/strategy/AGILE_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Documentation Strategy",
+    "permalink": "/strategy/DOCUMENTATION_STRATEGY"
+  },
+  "next": {
+    "title": "Contribution Strategy",
+    "permalink": "/strategy/CONTRIBUTION_STRATEGY"
+  }
+}

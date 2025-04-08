@@ -1,0 +1,14 @@
+{
+  "unversionedId": "strategy/README",
+  "id": "strategy/README",
+  "title": "Mindscape Strategy Documentation",
+  "description": "This directory contains the strategic documentation for the Mindscape project. For a complete overview of our strategy documentation, please refer to the Meta Strategy document.",
+  "source": "@site/docs/strategy/README.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/",
+  "permalink": "/strategy/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

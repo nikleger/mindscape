@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/ARCHITECTURE_DECISIONS",
+  "id": "strategy/ARCHITECTURE_DECISIONS",
+  "title": "Architecture Decisions",
+  "description": "Overview",
+  "source": "@site/docs/strategy/ARCHITECTURE_DECISIONS.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/ARCHITECTURE_DECISIONS",
+  "permalink": "/strategy/ARCHITECTURE_DECISIONS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Development Strategy",
+    "permalink": "/strategy/DEVELOPMENT_STRATEGY"
+  },
+  "next": {
+    "title": "Testing Strategy",
+    "permalink": "/strategy/TESTING_STRATEGY"
+  }
+}

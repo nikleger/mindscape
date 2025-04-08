@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/QUALITY_STRATEGY",
+  "id": "strategy/QUALITY_STRATEGY",
+  "title": "Quality Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/QUALITY_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/QUALITY_STRATEGY",
+  "permalink": "/strategy/QUALITY_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Development and Agile Strategy",
+    "permalink": "/strategy/DEVELOPMENT_AND_AGILE_STRATEGY"
+  },
+  "next": {
+    "title": "Security and Data Strategy",
+    "permalink": "/strategy/SECURITY_AND_DATA_STRATEGY"
+  }
+}

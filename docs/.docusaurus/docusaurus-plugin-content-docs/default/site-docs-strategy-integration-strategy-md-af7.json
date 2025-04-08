@@ -1,0 +1,27 @@
+{
+  "unversionedId": "strategy/INTEGRATION_STRATEGY",
+  "id": "strategy/INTEGRATION_STRATEGY",
+  "title": "Integration Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/INTEGRATION_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/INTEGRATION_STRATEGY",
+  "permalink": "/strategy/INTEGRATION_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "INTEGRATION_STRATEGY",
+    "title": "Integration Strategy",
+    "sidebar_label": "Integration Strategy"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Scalability Strategy",
+    "permalink": "/strategy/SCALABILITY_STRATEGY"
+  },
+  "next": {
+    "title": "Monitoring Strategy",
+    "permalink": "/strategy/MONITORING_STRATEGY"
+  }
+}

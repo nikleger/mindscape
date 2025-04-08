@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/TEAM_AND_PROCESS_STRATEGY",
+  "id": "strategy/TEAM_AND_PROCESS_STRATEGY",
+  "title": "Team and Process Strategy",
+  "description": "Overview",
+  "source": "@site/docs/strategy/TEAM_AND_PROCESS_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/TEAM_AND_PROCESS_STRATEGY",
+  "permalink": "/strategy/TEAM_AND_PROCESS_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Integration and Monitoring Strategy",
+    "permalink": "/strategy/INTEGRATION_AND_MONITORING_STRATEGY"
+  },
+  "next": {
+    "title": "Documentation Strategy",
+    "permalink": "/strategy/DOCUMENTATION_STRATEGY"
+  }
+}

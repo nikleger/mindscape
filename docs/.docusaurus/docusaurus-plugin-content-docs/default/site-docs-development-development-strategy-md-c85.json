@@ -1,0 +1,23 @@
+{
+  "unversionedId": "development/development-strategy",
+  "id": "development/development-strategy",
+  "title": "Development and Agile Strategy",
+  "description": "Overview",
+  "source": "@site/docs/development/development-strategy.md",
+  "sourceDirName": "development",
+  "slug": "/development/development-strategy",
+  "permalink": "/development/development-strategy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Meta Strategy",
+    "permalink": "/architecture/meta-strategy"
+  },
+  "next": {
+    "title": "Development Guide",
+    "permalink": "/development/guide"
+  }
+}

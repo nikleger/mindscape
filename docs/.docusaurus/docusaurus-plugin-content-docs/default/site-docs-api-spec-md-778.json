@@ -1,0 +1,23 @@
+{
+  "unversionedId": "api/spec",
+  "id": "api/spec",
+  "title": "API Specification",
+  "description": "Overview",
+  "source": "@site/docs/api/spec.md",
+  "sourceDirName": "api",
+  "slug": "/api/spec",
+  "permalink": "/api/spec",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Security and Data Strategy",
+    "permalink": "/security/security-strategy"
+  },
+  "next": {
+    "title": "Database Schema",
+    "permalink": "/database/schema"
+  }
+}

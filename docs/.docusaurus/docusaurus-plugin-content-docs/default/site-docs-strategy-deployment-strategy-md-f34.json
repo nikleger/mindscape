@@ -1,0 +1,23 @@
+{
+  "unversionedId": "strategy/DEPLOYMENT_STRATEGY",
+  "id": "strategy/DEPLOYMENT_STRATEGY",
+  "title": "Deployment Strategy",
+  "description": "CI/CD Pipeline",
+  "source": "@site/docs/strategy/DEPLOYMENT_STRATEGY.md",
+  "sourceDirName": "strategy",
+  "slug": "/strategy/DEPLOYMENT_STRATEGY",
+  "permalink": "/strategy/DEPLOYMENT_STRATEGY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Contribution Strategy",
+    "permalink": "/strategy/CONTRIBUTION_STRATEGY"
+  },
+  "next": {
+    "title": "Team Onboarding Guide",
+    "permalink": "/strategy/ONBOARDING_STRATEGY"
+  }
+}
